@@ -7,3 +7,9 @@ FROM clientes;
 
 SELECT nome, cidade
 FROM clientes;
+
+-- Mostrar apenas clientes de Belo Horizonte
+
+SELECT *
+FROM clientes
+WHERE cidade = 'Belo Horizonte';
